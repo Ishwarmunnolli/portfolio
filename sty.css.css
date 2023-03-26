@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+* {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header
+
+/*  ---------------------------Navigation bar */
+    {
+    position: fixed;
+    background-color: black;
+    width: 20%;
+    height: 100vh;
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: gold;
+    display: block;
+    font-weight: bolder;
+}
+
+header li {
+    list-style: none;
+    margin: 1.2rem;
+    padding: 10px;
+    border: solid;
+    border-radius: 20px;
+    background:
+        linear-gradient(rgba(6, 89, 85, 0.507), transparent),
+        linear-gradient(to top left, rgb(33, 5, 110), transparent),
+        linear-gradient(to top right, rgb(163, 12, 148), transparent);
+        font-size: 20px;
+        font-weight: bold;
+        border: solid gold 2px;
+}
+
+header nav {
+    margin-top: 8rem;
+}
+
+main {
+    margin-left: 20%;
+}
+
+/*------------------------------ image */
+img {
+    width: 280px;
+    height: 400px;
+}
+
+/*  -----------------------------------------------about me */
+.aboutme {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    color: aliceblue;
+}
+
+#A{
+    margin-top: 15%;
+    padding: 5%;
+    /* background-color: blue; */
+    line-height: 40px;
+    height: 200px;
+    width: 400px;
+    font-size: 1.5em;
+    
+}
+#A h3{
+    color: aliceblue;
+}
+#A p{
+    
+    margin-left: 0px;
+    font-size: 15px;
+    line-height: 20px;
+    color: aqua;
+}
+#aboutme_btn 
+{
+    margin-top: 10px;
+    margin-left: -10px;
+    padding: 10px;
+    border-radius: 50px;
+    width: 150px;
+    background:
+    linear-gradient(rgb(248, 236, 4), transparent),
+    linear-gradient(to top left, rgb(0, 126, 2), transparent),
+    linear-gradient(to top right, green, transparent);
+    
+}
+#aboutme_btn h3{
+    color: black;
+}
+
+#B
+{
+    margin-top: 10%;
+    /* background-color: rgb(80, 80, 148); */
+    height: 400px;
+    width: 300px;
+}
+
+
+/*==================================== project */
+.project {
+    line-height: 1.8em;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+    background-color: black;
+    color: white;
+}
+.project h1{
+    color: gold;
+}
+
+/* .project1 {
+
+    margin: 30px 20px 0px 50px;
+}
+
+.project2 {
+    margin: 30px 20px 0px 50px;
+}
+
+.project3 {
+    margin: 30px 20px 0px 50px;
+}
+
+.project4 {
+    margin: 30px 20px 20px 50px;
+} */
+
+.academicsproject {
+    margin: 0px 20px 0px 50px;
+}
+
+#pj1 {
+
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    border-bottom: solid gold 2px;
+    color: gold;
+
+
+}
+
+#pj2{
+    margin-left: 50px;
+}
+.academicsproject h3{
+ 
+    color: gold;
+}
+
+a {
+
+    text-decoration: none;
+    
+} 
+.set1
+{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+  
+    
+}
+*::-webkit-scrollbar {
+    display: none;
+  }
+.A{
+    margin: 10px;
+    height: 320px;
+    width: 270px;
+    background-color: black;
+    border: solid 2px rgb(235, 14, 14);
+    border-radius: 20px;
+    
+}
+.cardimg{
+    width: 270px;
+    height: 200px;
+    border-radius: 20px;
+    
+}
+.A h3{
+   margin: 10px;
+   color: yellowgreen;
+   line-height: normal;
+   letter-spacing: normal;
+}
+.A p
+{
+    margin: 10px;
+    color: aqua;
+    line-height: normal;
+    letter-spacing: normal;
+}
+.cardbtn
+{
+    margin: 10px;
+
+padding: 5px;
+border-radius: 20px;
+width: 100px;
+background:
+linear-gradient(rgb(248, 236, 4), transparent),
+linear-gradient(to top left, rgb(0, 126, 2), transparent),
+linear-gradient(to top right, green, transparent);
+/* float: right; */
+border: solid black 0px;
+font-weight: bold;
+}
+
+/*  ---------------------------education */
+.education {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.education span{
+    color: gold;
+}
+#heading
+{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 10px;
+    font-weight: bold;
+    border-bottom: solid gold 2px;
+    color: gold;
+ 
+}
+#kodnest {
+    margin-right: 150px;
+    padding: 30px;
+    width: 350px;
+    height: 180px;
+    line-height: 35px;
+    background-color: black;
+    color:white;
+    /* border: solid 1px; */
+    border-left: solid gold 3px;
+    order: 1;
+}
+
+#graduation {
+    margin-right: 150px;
+    margin-top: -40px;
+    padding: 30px;
+    width: 350px;
+    height: 180px;
+    line-height: 35px;
+    background-color: black;
+    color:white;
+    /* border: solid 1px; */
+    border-left: solid gold 3px;
+    order: 1;
+    order: 3;
+}
+
+#puc {
+    margin-left: 60px;
+    margin-top: -40px;
+    padding: 30px;
+    width: 350px;
+    height: 180px;
+    line-height: 35px;
+    background-color: black;
+    color:white;
+    /* border: solid 1px; */
+    border-left: solid gold 3px;
+    order: 1;
+    order: 4;
+}
+
+#sslc {
+    margin-left: 60px;
+    padding: 30px;
+    width: 350px;
+    height: 180px;
+    line-height: 35px;
+    background-color: black;
+    color:white;
+    /* border: solid 1px; */
+    border-left: solid gold 3px;
+    order: 1;
+    order: 2;
+}
+
+/*  ---------------------------technicalSkills */
+.technical {
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+}
+
+.technical h1 {
+    width: 100%;
+    height: 50px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border-bottom: solid gold 2px;
+    color: gold;
+   
+  
+}
+
+.technical h3 {
+    font-size: 1.5rem;
+    color: gold;
+    line-height: 35px;
+}
+
+.technical span {
+    
+    font-size: 1.4rem;
+    color: white;
+    line-height: 55px;
+    margin-right: 30px;
+}
+.box
+{
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+
+/*  ---------------------------Certification */
+.certification {
+    
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: gold;
+    font-size: 2rem;
+    line-height: 2em;
+}
+#kodnestlink
+{
+    text-decoration: none;
+    background:
+    linear-gradient(rgb(45, 41, 41), transparent),
+    linear-gradient(to top left, rgb(16, 3, 91), transparent),
+    linear-gradient(to top right, rgb(249, 20, 20), transparent);
+    padding: 15px;
+    border-radius: 50px;
+    color: gold;
+    font-weight: bold;
+    font-size: 20px;
+    border: solid green;
+    
+
+}
+.certification div{
+    padding: 100px;
+}
+/*  ---------------------------Careerkills */
+.careerskill{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: aliceblue; 
+}
+.careerskill h1{
+    text-align: center;
+    padding-top: 50px;
+    font-weight: bold;
+    border-bottom: solid gold 2px;
+    color: gold;
+}
+
+.careerskill ul {
+    margin: 10px 0px 0px 80px;
+    padding-left: 30px;
+    padding-top: 20px;
+    line-height: 2em;
+    height: 75vh;
+    justify-content: center;
+    font-size: 30px;
+
+}
+
+
+/* ===================================details */
+.details
+{
+    line-height: 1.5em;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    line-height: 30px;
+}
+#aboutme1head
+{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-bottom: solid gold 2px;
+    color: gold;
+}
+
+.details h1{
+    font-weight: bold;
+    border-bottom: solid gold 2px;
+    color: gold;
+    
+    
+   
+
+}
+.details1
+{
+    margin: 10px 0px 0px 100px;
+    padding: 10px;
+    width: 30vw;
+    color: white;
+    
+}
+.languages
+{
+    margin: -20px 0px 0px 100px;
+    padding: 30px 0px 0px 10px;
+    width: 30vw;
+    color: white;
+    /* background-color: aliceblue; */
+    
+    
+}
+.hobbies
+{
+    margin: -20px 0px 0px 100px;
+    padding: 30px 0px 0px 10px;
+    width: 30vw;
+    color: white;
+
+}
