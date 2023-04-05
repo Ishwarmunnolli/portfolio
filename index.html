@@ -1,61 +1,67 @@
-<html lang="en">
+<!DOCTYPE html>
+<html>
+<!-- ------------------------------------------head---------------------->
+<title>Resume09</title>
+<link href="Resume09.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>testResume</title>
-    <link href="sty.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+
 </head>
+<!-- ---------------------------------------- body----------------------->
 
 <body>
-    <!-- =================================================main button section  -->
-    <section class="main_btn">
-        <ul>
-            <li><a href="#aboutme">Home</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#technicalskill">Tecnical Skills</a></li>
-            <li><a href="#education">Education</a></li>
-            <li><a href="#certification">Certification</a></li>
-            <li><a href="#careerskill">CareerSkills</a></li>
-            <li><a href="#details">Details</a></li>
-        </ul>
-    </section>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#aboutme">Home</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#technicalskill">Tecnical Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#certification">Certification</a></li>
+                <li><a href="#careerskill">CareerSkills</a></li>
+                <li><a href="#details">Details</a></li>
 
-    <!-- =================================================aboutme  -->
-    <div class="aboutme" id="aboutme">
-        <section id="A">
-            <h1>Hi There !</h1>
-            <h1 style="color: gold;">I'm Ishwar Munnolli</h1>
-            <h3>Full stack Devloper</h3>
-            <p>Full Stack Development trained by kodnest with good knowledge of front-end, back-end, and database
-                technologies, eager to gain hands-on experience in a
-                professional environment</p>
-            <a href="#details"><Button id="aboutme_btn">
-                    <h3>AboutMe <i class="fas fa-user"></i></h3>
-                </Button></a>
+            </ul>
+        </nav>
+    </header>
+    <main>
 
-        </section>
-        <section id="B">
-            <img src="/Project1/img/My project.png">
-        </section>
-    </div>
-    <!-- ===============================================================projects  -->
-    <div class="project" id="projects">
-        <h1>Self Project</h1>
-        <div class="carddisplay">
-            <!-- ==============================project1==== -->
-            <a class="cardanchor" href="moreinfo1.html">
-                <div class="A">
-                    <img class="cardimg" src="/Project2/img/datapage.png">
-                    <div>
-                        <h3>Data Structure & Algorithms</h3>
-                        <button class="cardbtn">Get Details</button>
+        <!-- ------------------------------------------------------------------------aboutme -->
+        <div class="aboutme" id="aboutme">
+            <section id="A">
+                <h1>Hi There !</h1>
+                <h1 style="color: gold;">I'm Ishwar Munnolli</h1>
+                <h3>Full stack Devloper</h3>
+                <p>Full Stack Development trained by kodnest with good knowledge of front-end, back-end, and database
+                    technologies, eager to gain hands-on experience in a
+                    professional environment</p>
+                <a href="#details"><Button id="aboutme_btn">
+                        <h3>AboutMe <i class="fas fa-user"></i></h3>
+                    </Button></a>
+
+            </section>
+            <section id="B">
+                <img src="/Project1/img/My project.png">
+            </section>
+        </div>
+        <!---------------------------Project block------------------->
+        <div class="project" id="projects">
+            <h1 id="pj1">Self Project</h1>
+            <div class="set1">
+
+                <a class="cardanchor" href="moreinfo1.html">
+                    <div class="A">
+                        <img class="cardimg" src="/Project2/img/datapage.png">
+                        <div>
+                            <h3>Data Structure & Algorithms</h3>
+                            <button class="cardbtn">Get Details</button>
+                        </div>
                     </div>
-                </div>
-            </a>
-            <!-- ==============================project2==== -->
+                </a>
+
+        
+            &nbsp;
             <a class="cardanchor" href="moreinfo2.html">
                 <div class="A">
                     <img class="cardimg" src="/Project2/img/Billingpage.png">
@@ -63,25 +69,24 @@
                     <button class="cardbtn">Get Details</button>
                 </div>
             </a>
-            <!-- ==============================project3==== -->
+            &nbsp;
             <a class="cardanchor" href="moreinfo3.html">
                 <div class="A">
                     <img class="cardimg" src="/Project2/img/areapage.png">
                     <h3>Area Calculator</h3>
 
                     <button class="cardbtn">Get Details</button>
-                </div>
             </a>
-            <!-- ==============================project4==== -->
-            <a class="cardanchor" href="moreinfo4.html">
-                <div class="A">
-                    <img class="cardimg" src="/Project2/img/Chatpage.png">
-                    <h3>Chat Application</h3>
-                    <button class="cardbtn">Get Details</button>
-                </div>
-            </a>
-
-            <!-- ==============================project5==== -->
+        </div>
+        &nbsp;
+        <a class="cardanchor" href="moreinfo4.html">
+            <div class="A">
+                <img class="cardimg" src="/Project2/img/Chatpage.png">
+                <h3>Chat Application</h3>
+                <button class="cardbtn">Get Details</button>
+            </div>
+        </a>
+        <!----------------------------------- academics -->
             <div class="A">
                 <h3>Academics Project</h3>
                 <h3> Major Project</h3>
@@ -90,40 +95,40 @@
                 <h3>Minor project</h3>
                 <p>Hydraulic scissor lift</p>
             </div>
-
-        </div>
-    </div>
-
-    <!-- =========================================================================Technical  -->
-    <div class="technical" id="technicalskill">
-        <h1>Technical Skills</h1>
-        <div class="skillbox">
-            <h3>Programing Languages</h3>
-            <span>Java <i class=" fa-brands fa-java"></i></span><span> Python <i class=" fa-brands fa-python"></i>
-            </span><span></span>
-            <br><br>
-            <h3>Data Base <i class="fa-solid fa-database"></i></h3>
-            <span>SQL </span><span>MySQL ( RDBMS ) </span><span>Oracle ( RDBMS ) </span>
-            <br><br>
-
-            <h3>Web Technologies</h3>
-            <span>HTML <i class="fa-brands fa-html5"></i></span><span> CSS <i
-                    class="fa-brands fa-css3-alt"></i></span><span> JavaScript <i
-                    class="fa-brands fa-square-js"></i></span><span> Angular <i class="fa-brands fa-angular"></i></span>
-            <br><br>
-
-            <h3>DataStructure/Algorithmas</h3>
-            <br>
-            <h3>Testing</h3>
-            <span>Manual Testing</span>
+        
+    
         </div>
 
-    </div>
-    <!-- /* ==================================================================================education  */ -->
-    <div class="education" id="education">
-        <h1 id="heading">Education</h1>
+        <!-- ---------------------------technicalSkills -->
+        <div class="technical" id="technicalskill">
+            <h1 style="text-align: center;">Technical Skills</h1>
+            <section class="box">
 
-        <div class="grid">
+                <h3>Programing Languages</h3>
+                <span>Java <i class=" fa-brands fa-java"></i></span><span> Python <i class=" fa-brands fa-python"></i>
+                </span><span></span>
+                <br><br>
+                <h3>Data Base <i class="fa-solid fa-database"></i></h3>
+                <span>SQL </span><span>MySQL ( RDBMS ) </span><span>Oracle ( RDBMS ) </span>
+                <br><br>
+
+                <h3>Web Technologies</h3>
+                <span>HTML <i class="fa-brands fa-html5"></i></span><span> CSS <i
+                        class="fa-brands fa-css3-alt"></i></span><span> JavaScript <i
+                        class="fa-brands fa-square-js"></i></span><span> Angular <i
+                        class="fa-brands fa-angular"></i></span>
+                <br><br>
+
+                <h3>DataStructure/Algorithmas</h3>
+                <br>
+                <h3>Testing</h3>
+                <span>Manual Testing</span>
+            </section>
+        </div>
+        <!-- ---------------------------education -->
+        <div class="education" id="education">
+            <!-- Kodnest -->
+            <h1 id="heading">Education</h1>
             <section id="kodnest">
                 <span style="font-size: 30px;"><i class="fa-solid fa-laptop-code "></i> Training</span>
                 ( present )
@@ -131,15 +136,6 @@
                 <h4>From Kodnest training platform</h4>
                 <h4>Btm Layout Banglore - Karnataka</h4>
             </section>
-
-            <section id="sslc">
-                <span style="font-size: 30px;"><i class="fa-solid fa-school "></i> SSLC</span>
-                ( April-2015 )
-                <h4>Percentage - 70.56%</h4>
-                <h4>G A High School</h4>
-                <h4>Belagavi-Karnataka</h4>
-            </section>
-
             <section id="graduation">
                 <span style="font-size: 30px;"><i class="fa fa-graduation-cap "></i> Graduation</span>
                 ( September-2022 )
@@ -149,7 +145,6 @@
                 <h4>S G Balekundri Institution Of Technologies</h4>
                 <h4>Belagavi - Karnataka</h4>
             </section>
-       
             <section id="puc">
                 <span style="font-size: 30px;"><i class="fa-sharp fa-solid fa-building-columns "></i> PUC</span>
                 ( August-2017 )
@@ -159,73 +154,78 @@
                 <h4>Belagavi-Karnataka</h4>
 
             </section>
+            <section id="sslc">
+                <span style="font-size: 30px;"><i class="fa-solid fa-school "></i> SSLC</span>
+                ( April-2015 )
+                <h4>Percentage - 70.56%</h4>
+                <h4>G A High School</h4>
+                <h4>Belagavi-Karnataka</h4>
+            </section>
         </div>
-    </div>
-    <!-- ========================================================================================certification -->
-    <div class="certification" id="certification">
-        <div>
-            <h1>Certification</h1>
-            <p>Certified Full Stack Devloper From Kodnest Training pvt ltd</p>
-            <p>BTM Layout Banglore Karnataka</p>
-            <a id="kodnestlink" href="https://www.kodnest.com/best-full-stack-development-institute-in-bangalore/"
-                target="_blank">KodNest web site <i class="fa-solid fa-paper-plane"></i></a>
+        <!-- ---------------------------Certification -->
+        <div class="certification" id="certification">
+            <div>
+                <h1>Certification</h1>
+                <p>Certified Full Stack Devloper From Kodnest Training pvt ltd</p>
+                <p>BTM Layout Banglore Karnataka</p>
+                <a id="kodnestlink" href="https://www.kodnest.com/best-full-stack-development-institute-in-bangalore/"
+                    target="_blank">KodNest web site <i class="fa-solid fa-paper-plane"></i></a>
+            </div>
         </div>
 
-    </div>
-  <!-- ---------------------------Careerskills -->
-  <div class="careerskill" id="careerskill">
-    <h1>Career Skill</h1>
-    <div id="carbox">
-        <ul>
-            <li> Critical Thinking </li>
-            <li>Problem Solving</li>
-            <li>Teamwork & Collaboration</li>
-            <li> Research & Analysis</li>
-            <li>Quick learner</li>
-            <li> Leadership skill</li>
-            <li>Management Skill</li>
-        </ul>
-    </div>
-</div>
 
-  <!-- ---------------------------Languages -->
-  <div class="details" id="details">
-    <h1 id="aboutme1head">Details</h1>
-    <section class="details1">
-        <h3><i class="fas fa-user"></i> Name : ISHWAR MUNNOLLI</h3>
-        <h3><i class="fa-solid fa-calendar-days"></i> DOB : 05/04/1999 </h3>
-        <h3><i class="fa-solid fa-arrow-right"></i> AGE : 23 </h3>
-        <h3><i class="fas fa-user"></i> GENDER : MALE</h3>
-        <h3><i class="fa-solid fa-phone"></i> PHONE NO :9739117941</h3>
-        <h3> <i class="fa-solid fa-envelope "> </i> EMAIL : munnolli99@gmail.com</h3>
-        <h3 style="font-size: 15px;"> <i class="fa-solid fa-location-dot"></i> Location : Santaji Galli Kangrali
-            B K Belagavi 590010 Karnataka</h3>
+        <!-- ---------------------------Careerskills -->
+        <div class="careerskill" id="careerskill">
+            <h1>Career Skill</h1>
+            <div id="carbox">
+                <ul>
+                    <li> Critical Thinking </li>
+                    <li>Problem Solving</li>
+                    <li>Teamwork & Collaboration</li>
+                    <li> Research & Analysis</li>
+                    <li>Quick learner</li>
+                    <li> Leadership skill</li>
+                    <li>Management Skill</li>
+                </ul>
+            </div>
+        </div>
 
-    </section>
-    <section class="languages">
-        <h1>Languages</h1>
-        <h3>English</h3>
-        <h3>Kannada</h3>
-        <h3>Hindi</h3>
-        <h3>Marathi</h3>
+        <!-- ---------------------------Languages -->
+        <div class="details" id="details">
+            <h1 id="aboutme1head">Details</h1>
+            <section class="details1">
+                <h3><i class="fas fa-user"></i> Name : ISHWAR MUNNOLLI</h3>
+                <h3><i class="fa-solid fa-calendar-days"></i> DOB : 05/04/1999 </h3>
+                <h3><i class="fa-solid fa-arrow-right"></i> AGE : 23 </h3>
+                <h3><i class="fas fa-user"></i> GENDER : MALE</h3>
+                <h3><i class="fa-solid fa-phone"></i> PHONE NO :9739117941</h3>
+                <h3> <i class="fa-solid fa-envelope "> </i> EMAIL : munnolli99@gmail.com</h3>
+                <h3 style="font-size: 15px;"> <i class="fa-solid fa-location-dot"></i> Location : Santaji Galli Kangrali
+                    B K Belagavi 590010 Karnataka</h3>
 
-    </section>
-    <section class="hobbies">
-        <h1>Hobbies</h1>
-        <h3>Playing Chess,Snooker</h3>
-        <h3>Team Sports: Cricket Volleyball</h3>
-        <h3>Cooking</h3>
+            </section>
+            <section class="languages">
+                <h1>Languages</h1>
+                <h3>English</h3>
+                <h3>Kannada</h3>
+                <h3>Hindi</h3>
+                <h3>Marathi</h3>
 
-    </section>
+            </section>
+            <section class="hobbies">
+                <h1>Hobbies</h1>
+                <h3>Playing Chess,Snooker</h3>
+                <h3>Team Sports: Cricket Volleyball</h3>
+                <h3>Cooking</h3>
 
-
-
-</div>
+            </section>
 
 
 
+        </div>
 
 
+    </main>
 </body>
 
 </html>
