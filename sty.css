@@ -1,363 +1,355 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+:root {
+    --main-color:black; /* define a variable named --main-color and set its value to red */
+    --gold-color:gold;
+    --white-color:white;
+  }
+
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-header
+*::-webkit-scrollbar {
+    display: none;
+}
 
-/*  ---------------------------Navigation bar */
-    {
+/* =======================================================================================main btn */
+.main_btn {
     position: fixed;
-    background-color: black;
-    width: 20%;
+    background-color: var(--main-color);
     height: 100vh;
+    width: 25vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-align: center;
+
 }
 
-header a {
-    text-decoration: none;
-    color: gold;
-    display: block;
-    font-weight: bolder;
+.main_btn ul {
+    padding: 4em;
 }
 
-header li {
+.main_btn ul li {
     list-style: none;
-    margin: 1.2rem;
-    padding: 10px;
+    margin: 0.8em;
+    padding: 0.2em 1em;
     border: solid;
     border-radius: 20px;
     background:
         linear-gradient(rgba(6, 89, 85, 0.507), transparent),
         linear-gradient(to top left, rgb(33, 5, 110), transparent),
         linear-gradient(to top right, rgb(163, 12, 148), transparent);
-        font-size: 20px;
-        font-weight: bold;
-        border: solid gold 2px;
+    font-weight: bold;
+    border: solid gold 2px;
+    width: 15vw;
 }
 
-header nav {
-    margin-top: 8rem;
-}
-
-main {
-    margin-left: 20%;
-}
-
-/*------------------------------ image */
-img {
-    width: 280px;
-    height: 400px;
-}
-
-/*  -----------------------------------------------about me */
-.aboutme {
-    display: flex;
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    justify-content: center;
-    color: aliceblue;
-}
-
-#A{
-    margin-top: 15%;
-    padding: 5%;
-    /* background-color: blue; */
-    line-height: 40px;
-    height: 200px;
-    width: 400px;
+.main_btn ul li a {
+    text-decoration: none;
+    text-decoration: none;
+    color: var(--gold-color);
+    display: block;
+    font-weight: bolder;
     font-size: 1.5em;
-    
 }
-#A h3{
-    color: aliceblue;
+
+/* =======================================================================================about me */
+
+.aboutme {
+    margin-left: 25vw;
+    background-color:var(--main-color);
+    height: 99.5vh;
+    width: auto;
+    /* border: solid 2px red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
-#A p{
-    
-    margin-left: 0px;
-    font-size: 15px;
-    line-height: 20px;
+
+
+img {
+    width: 15vw;
+}
+
+#A {
+    width: 30vw;
+    height: 30vh;
+    line-height: 40px;
+    font-weight: bolder;
+    font-size: 1.5em;
+    color: var(--white-color);
+
+}
+
+#A p {
+    line-height: 25px;
+    font-weight: bold;
+    font-size: 0.6em;
     color: aqua;
 }
-#aboutme_btn 
-{
+
+#aboutme_btn {
     margin-top: 10px;
     margin-left: -10px;
     padding: 10px;
     border-radius: 50px;
     width: 150px;
     background:
-    linear-gradient(rgb(248, 236, 4), transparent),
-    linear-gradient(to top left, rgb(0, 126, 2), transparent),
-    linear-gradient(to top right, green, transparent);
-    
-}
-#aboutme_btn h3{
-    color: black;
+        linear-gradient(rgb(248, 236, 4), transparent),
+        linear-gradient(to top left, rgb(0, 126, 2), transparent),
+        linear-gradient(to top right, green, transparent);
+    border: 0;
+
 }
 
-#B
-{
-    margin-top: 10%;
-    /* background-color: rgb(80, 80, 148); */
-    height: 400px;
-    width: 300px;
-}
-
-
-/*==================================== project */
+/* =======================================================================================project */
 .project {
-    line-height: 1.8em;
-    padding: 10px;
+    margin-left: 25vw;
+    background-color: var(--main-color);
+    height: 99.5vh;
+    width: auto;
+    /* border: solid 1px red; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+
+}
+
+.project h1{
+    color: var(--gold-color);
+    border-bottom: solid 2px var(--gold-color);
+    font-size: 3em;
+}
+
+.carddisplay {
+    background-color: var(--main-color);
+    width: 70vw;
+    height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    flex-flow: column;
+
+    align-items: center;
+    overflow-y: scroll;
+
+}
+
+.A {
+    margin: 10px;
+    height: 40vh;
+    width: 15vw;
     background-color: black;
-    color: white;
-}
-.project h1{
-    color: gold;
-}
+    border: solid 1px gold;
+    border-radius: 20px;
 
-/* .project1 {
-
-    margin: 30px 20px 0px 50px;
 }
 
-.project2 {
-    margin: 30px 20px 0px 50px;
+.cardimg {
+    width: 15vw;
+    height: 200px;
+    border-radius: 20px;
+
 }
 
-.project3 {
-    margin: 30px 20px 0px 50px;
-}
+.cardbtn {
+    margin: 10px;
 
-.project4 {
-    margin: 30px 20px 20px 50px;
-} */
-
-.academicsproject {
-    margin: 0px 20px 0px 50px;
-}
-
-#pj1 {
-
-    width: 100%;
-    height: 50px;
-    margin-top: 10px;
-    text-align: center;
-    padding-top: 10px;
+    padding: 5px;
+    border-radius: 20px;
+    width: 100px;
+    background:
+        linear-gradient(rgb(248, 236, 4), transparent),
+        linear-gradient(to top left, rgb(0, 126, 2), transparent),
+        linear-gradient(to top right, green, transparent);
+    float: left;
+    border: solid black 0px;
     font-weight: bold;
-    border-bottom: solid gold 2px;
-    color: gold;
-
-
-}
-
-#pj2{
-    margin-left: 50px;
-}
-.academicsproject h3{
- 
-    color: gold;
 }
 
 a {
 
     text-decoration: none;
-    
-} 
-.set1
-{
-    background-color: black;
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    flex-wrap: wrap;
-    overflow-y: scroll;
-  
-    
+
 }
-*::-webkit-scrollbar {
-    display: none;
-  }
-.A{
+
+.A h3 {
     margin: 10px;
-    height: 320px;
-    width: 270px;
-    background-color: black;
-    border: solid 2px rgb(235, 14, 14);
-    border-radius: 20px;
-    
+    color: yellowgreen;
+    line-height: normal;
+    letter-spacing: normal;
+    font-size: 0.9em;
+    text-align: left;
 }
-.cardimg{
-    width: 270px;
-    height: 200px;
-    border-radius: 20px;
-    
-}
-.A h3{
-   margin: 10px;
-   color: yellowgreen;
-   line-height: normal;
-   letter-spacing: normal;
-}
-.A p
-{
+
+.A p {
     margin: 10px;
     color: aqua;
     line-height: normal;
     letter-spacing: normal;
+    text-align: left;
 }
-.cardbtn
+/* ===========================================technical skills */
+.technical
 {
-    margin: 10px;
-
-padding: 5px;
-border-radius: 20px;
-width: 100px;
-background:
-linear-gradient(rgb(248, 236, 4), transparent),
-linear-gradient(to top left, rgb(0, 126, 2), transparent),
-linear-gradient(to top right, green, transparent);
-/* float: right; */
-border: solid black 0px;
-font-weight: bold;
-}
-
-/*  ---------------------------education */
-.education {
+    margin-left: 25vw;
+    background-color:var(--main-color);
+    height: 99.5vh;
+    width: auto;
+    /* border: solid 2px red; */
+    /* text-align: center; */
     display: flex;
-    height: 100vh;
-    width: 100%;
-    background-color: black;
+    flex-direction: column;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+    row-gap: 50px;
+
+
 }
-.education span{
-    color: gold;
+.technical h1{
+    color:var(--gold-color);
+    border-bottom: solid 2px var(--gold-color);
 }
-#heading
+.technical .skillbox
 {
-    width: 100%;
-    height: 50px;
-    margin-top: 10px;
-    text-align: center;
-    padding-top: 10px;
-    font-weight: bold;
-    border-bottom: solid gold 2px;
-    color: gold;
- 
+    width: 80%;
+    height: 80%;
 }
-#kodnest {
-    margin-right: 150px;
-    padding: 30px;
-    width: 350px;
-    height: 180px;
-    line-height: 35px;
-    background-color: black;
-    color:white;
-    /* border: solid 1px; */
-    border-left: solid gold 3px;
-    order: 1;
-}
-
-#graduation {
-    margin-right: 150px;
-    margin-top: -40px;
-    padding: 30px;
-    width: 350px;
-    height: 180px;
-    line-height: 35px;
-    background-color: black;
-    color:white;
-    /* border: solid 1px; */
-    border-left: solid gold 3px;
-    order: 1;
-    order: 3;
-}
-
-#puc {
-    margin-left: 60px;
-    margin-top: -40px;
-    padding: 30px;
-    width: 350px;
-    height: 180px;
-    line-height: 35px;
-    background-color: black;
-    color:white;
-    /* border: solid 1px; */
-    border-left: solid gold 3px;
-    order: 1;
-    order: 4;
-}
-
-#sslc {
-    margin-left: 60px;
-    padding: 30px;
-    width: 350px;
-    height: 180px;
-    line-height: 35px;
-    background-color: black;
-    color:white;
-    /* border: solid 1px; */
-    border-left: solid gold 3px;
-    order: 1;
-    order: 2;
-}
-
-/*  ---------------------------technicalSkills */
-.technical {
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-}
-
 .technical h1 {
-    width: 100%;
-    height: 50px;
-    padding: 10px;
-    text-align: center;
     font-weight: bold;
-    border-bottom: solid gold 2px;
-    color: gold;
+    border-bottom: solidvar(--gold-color) 2px;
+    color: var(--gold-color);
+    font-size: 3em;
    
   
 }
-
 .technical h3 {
-    font-size: 1.5rem;
-    color: gold;
-    line-height: 35px;
+    font-weight: bold;
+    color: var(--gold-color);
+    font-size: 1.5em;
+   
+  
 }
-
 .technical span {
     
     font-size: 1.4rem;
-    color: white;
+    color: var(--white-color);
     line-height: 55px;
     margin-right: 30px;
 }
-.box
+/* ==================================================================================education  */
+.education
 {
-    margin-left: 150px;
-    margin-top: 50px;
+    margin-left: 25vw;
+    background-color: var(--main-color);
+    height: 99.5vh;
+    width: auto;
+    /* border: solid 2px red; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 50px;
+
+
+}
+.education h1 {
+    font-weight: bold;
+    border-bottom: solid var(--gold-color) 2px;
+    color: var(--gold-color);
+    font-size: 3em;
+   
+  
+}
+.education .grid
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    color: var(--white-color);
+}
+.grid span
+{
+    color:var(--gold-color);
 }
 
+#kodnest, #graduation, #puc , #sslc
+{
 
-/*  ---------------------------Certification */
-.certification {
+    height: 200px;
+    width: 350px;
+    margin:20px 85px;
+    padding: 20px;
+    border-left: solid var(--gold-color) 3px;
+    line-height: 35px;
     
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    color: gold;
+   
+}
+/* #graduation
+{
+    
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-left: solid var(--gold-color) 3px;
+    line-height: 35px;
+    order: 3;
+}
+
+#puc
+{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-left: solid var(--gold-color) 3px;
+    line-height: 35px;
+    order: 4;
+}
+
+#sslc
+{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    padding: 20px;
+    border-left: solid var(--gold-color) 3px;
+    line-height: 35px;
+    order: 2;
+    
+} */
+/* =======================================================certification */
+.certification
+{
+    margin-left: 25vw;
+    background-color:var(--main-color);
+    height: 99.5vh;
+    width: auto;
+    /* border: solid 2px red; */
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--gold-color);
     font-size: 2rem;
     line-height: 2em;
 }
+.certification h1{
+    color: var(--gold-color);
+    
+}
+.certification p{
+    color: var(--white-color);
+}
+
 #kodnestlink
 {
     text-decoration: none;
@@ -367,31 +359,38 @@ font-weight: bold;
     linear-gradient(to top right, rgb(249, 20, 20), transparent);
     padding: 15px;
     border-radius: 50px;
-    color: gold;
+    color: var(--gold-color);
     font-weight: bold;
     font-size: 20px;
-    border: solid green;
+    border: solid gold;
     
 
 }
 .certification div{
     padding: 100px;
 }
-/*  ---------------------------Careerkills */
-.careerskill{
-    height: 100vh;
-    width: 100%;
-    background-color: black;
-    color: aliceblue; 
+
+/* =====================================================career skill */
+.careerskill
+{
+    margin-left: 25vw;
+    background-color: var(--main-color);
+    height: 99.5vh;
+    width: auto;
+    /* border: solid 2px red; */
+    justify-content: center;
+    color: var(--gold-color);
+
+    line-height: 2em;
 }
 .careerskill h1{
     text-align: center;
-    padding-top: 50px;
+    padding: 20px;
     font-weight: bold;
-    border-bottom: solid gold 2px;
-    color: gold;
+    border-bottom: solid var(--gold-color) 2px;
+    color: var(--gold-color);
+    font-size: 3em;
 }
-
 .careerskill ul {
     margin: 10px 0px 0px 80px;
     padding-left: 30px;
@@ -400,36 +399,41 @@ font-weight: bold;
     height: 75vh;
     justify-content: center;
     font-size: 30px;
+    color: var(--white-color);
 
 }
-
 
 /* ===================================details */
 .details
 {
-    line-height: 1.5em;
-    background-color: black;
-    display: flex;
-    flex-direction: column;
-    height: 100vh;
-    width: 100%;
+    margin-left: 25vw;
+    background-color:var(--main-color);
+    height: 99.5vh;
+    width: auto;
+    /* border: solid 2px red; */
+    justify-content: center;
+    color: var(--gold-color);
     line-height: 30px;
+    
+  
 }
 #aboutme1head
 {
     text-align: center;
-    margin-top: 20px;
+    /* margin-top: 20px; */
     margin-bottom: 20px;
     padding-bottom: 10px;
     font-weight: bold;
-    border-bottom: solid gold 2px;
-    color: gold;
+    border-bottom: solid var(--gold-color) 2px;
+    color: var(--gold-color);
+    font-size: 30px;
 }
 
 .details h1{
     font-weight: bold;
-    border-bottom: solid gold 2px;
-    color: gold;
+    border-bottom: solid var(--gold-color) 2px;
+    color: var(--gold-color);
+    font-size: 1.5em;
     
     
    
@@ -461,3 +465,5 @@ font-weight: bold;
     color: white;
 
 }
+
+
