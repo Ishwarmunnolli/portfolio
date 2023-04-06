@@ -35,3 +35,25 @@ header ul a
     color: gold;
     font-size: 1.5em;
 }
+.project_vidio
+{
+   
+}
+/* ==========================================content  */
+.details {
+    /* background-color: rgb(200, 125, 125); */
+    padding: 20px;
+}
+.details h1
+{
+    color: rgb(4, 36, 165);
+}
+.details h2{
+    color: rgb(197, 18, 18);
+}
+
+.details img
+{
+    width: 500px;
+
+}
