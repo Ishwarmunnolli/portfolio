@@ -1,53 +1,38 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+
 * {
     font-family: 'Nunito', sans-serif;
     margin: 0;
     padding: 0;
+}
   
 
     /* ==========================================heading */
-}
-header h1{
-    padding:0.2em 0px 0.8em 35px;
-    height: 2vh;
+    header h2
+    {
+    padding:1%;
+    background-color: rgb(21, 0, 255);
+    color: aliceblue;
+    height: 4vh;
     width: 100%;
-    background-color: blue;
-    color: aliceblue;
-    text-align: left;
 }
-header nav{
-    padding:0.2em 0px 0.0em 10px;
+header ul
+{
+    padding:0.5% 1%;
     color: aliceblue;
-    background-color: rgb(5, 5, 73);
-    height: 5vh;
-}
-header nav ul li{
-    display: inline;
-    padding: 5px;
-    padding-left: 20px;
-    text-decoration: none;
     list-style: none;
-    font-size: 1.5em;
+    display: flex;
+    column-gap: 20px;
+    background-color: rgb(11, 5, 97);
+    width: 100%;
 }
-header nav ul li a{
+
+header ul a
+{
     text-decoration: none;
     color: gold;
-}
-
-
-/* ==========================================main */
-.title
-{
-    margin:10px 80px 0px 80px;
-    padding: 10px;
-    background-color: rgb(52, 100, 142);
-    color: rgb(245, 245, 253);
     font-size: 1.5em;
-    font-weight: bold;
 }
-.imgview,video{
-margin-top: 10px;
-    
-    
-}
+/* ==========================================vidio *
