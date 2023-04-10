@@ -143,6 +143,10 @@
     /* background-color: aliceblue; */
     
 }
+    .technical .skillbox {
+    width: 80%;
+    line-height: 40px;
+}
 
 }
 
@@ -321,6 +325,10 @@ width: 40vw;
 color: white;
 /* background-color: aliceblue; */
 
+}
+    .technical .skillbox {
+    width: 80%;
+    line-height: 20px;
 }
 
 }
