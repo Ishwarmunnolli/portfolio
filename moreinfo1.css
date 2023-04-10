@@ -88,3 +88,9 @@ header ul a {
     linear-gradient(to top left, rgb(3, 12, 96), transparent),
     linear-gradient(to top right, rgb(2, 55, 2), transparent);
 }
+.details1 .subimg p
+{
+ 
+    padding: 0px;
+    text-align: center;
+}
