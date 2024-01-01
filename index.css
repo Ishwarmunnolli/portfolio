@@ -167,22 +167,36 @@ body {
         font-weight: bold;
 }
 #card1 {
-    width: 210px;
+    width: 220px;
     height: 250px;
  
     border: 1px solid rgb(241, 220, 220);
     border-radius: 20px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     
+}
+#card1 h3
+{
+    color: greenyellow;
+}
+#card1 div
+{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    align-items: center;
+    padding: 10px;
+
 }
 
 #card1
 {
-    padding: 0px 10px;
+    padding: 0px 0px;
     color:  var(--gold-color);
 }
 
 #projects #card1 .cardimg {
-    width: 210px;
+    width: 220px;
   
     border-radius: 20px;
 }
