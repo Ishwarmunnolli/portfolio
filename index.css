@@ -184,7 +184,7 @@ body {
 {
     display: grid;
     grid-template-rows: 1fr 1fr;
-    align-items: center;
+    align-items: baseline;
     padding: 10px;
 
 }
@@ -197,6 +197,7 @@ body {
 
 #projects #card1 .cardimg {
     width: 220px;
+    height: 150px;
   
     border-radius: 20px;
 }
