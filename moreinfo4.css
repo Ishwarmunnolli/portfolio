@@ -10,23 +10,34 @@
   
 
     /* ==========================================heading */
-    header h2
-    {
-    padding:1%;
+  header .nav1 {
+
+    padding: 10px;
     background-color: rgb(21, 0, 255);
     color: aliceblue;
     height: 4vh;
-    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    
 }
-header ul
+header div a
 {
-    padding:0.5% 1%;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 1em;
+
+}
+header .nav2 {
+
+
+    padding: 10px;
     color: aliceblue;
     list-style: none;
     display: flex;
     column-gap: 20px;
     background-color: rgb(11, 5, 97);
-    width: 100%;
+    
+
 }
 
 header ul a
