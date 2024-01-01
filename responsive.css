@@ -1,336 +1,233 @@
-/* ===========================only Gradient */
-@media (max-width: 1410px) {
-
-    /* =====================================education */
-    .education h1 {
-        font-size: 2em;
+@media (max-width: 1080px) {
+    body {
+        display: block;
     }
 
-    #kodnest,
-    #graduation,
-    #puc,
-    #sslc {
+    .head1 {
+        background-color: black;
+        height: 10vh;
+        width: 100%;
 
-        height: 150px;
-        width: 320px;
-        margin: 10px 25px;
-        padding: 15px;
-        border-left: solid var(--gold-color) 3px;
-        line-height: 25px;
-        font-size: 0.8em;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #first
+    {
+        display: none;
 
+    }
+    .head1 li a
+    {
+        color: var(--gold-color);
+        font-size: 1em;
+        font-weight: bold;
+    }
+    .head1 li {
+        list-style: none;
+        background-color: rgb(209, 37, 37);
+        width: auto;
+        padding: 0px;
+        text-align: center;
+        border-radius: 0px;
+        background: none;
+      
+        
 
+    }
+
+    .body1 {
+        background-color: rgb(226, 43, 43);
+        height: 90vh;
+        width: 100%;
+    }
+
+    .A {
+       
+        height: 90vh;
+        width: 100%;
+    
     }
 }
 
-@media (max-width: 1080px) {
-    * {
-        /* background-color: red; */
-    }
 
-    /* ======================================================= */
-    .main_btn ul li {
-        padding: 5px 0;
-        font-size: 0.5em;
-        /* border: solid gold 1px; */
-    }
-
-
-    #A {
-        width: 30vw;
-        height: 20vh;
-        line-height: 30px;
-        font-weight: bold;
-        font-size: 1em;
-        color: var(--white-color);
-    }
-
-    img {
-        width: 200px;
-    }
-
-    /* ==================================project */
-    .project h1 {
-        color: var(--gold-color);
-        border-bottom: solid 2px var(--gold-color);
-        font-size: 2em;
-    }
-
-    .technical h1 {
-        color: var(--gold-color);
-        border-bottom: solid 2px var(--gold-color);
-        font-size: 2em;
-    }
-
-    .technical h3 {
-        font-weight: bold;
-        color: var(--gold-color);
-        font-size: 1.0em;
-    }
-
-    .technical span {
-
-        font-size: 0.9rem;
-        color: var(--white-color);
-        line-height: 55px;
-        margin-right: 30px;
-    }
-
-    .technical {
-        row-gap: 25px;
-    }
-
-    .technical span {
-        line-height: 10px;
-        margin-right: 20px;
-    }
-    .certification
-    {
-        font-size: 1em;
-    }
-    #kodnestlink
-    {
-        padding: 7px;
-        font-size: 10px;
-    }
-    .careerskill h1{
-        text-align: center;
-        padding: 15px;
-        font-weight: bold;
-        border-bottom: solid var(--gold-color) 2px;
-        color: var(--gold-color);
-        font-size: 2em;
-    }
-    .careerskill ul {
-        margin: 10px 0px 0px 80px;
-        padding-left: 30px;
-        padding-top: 20px;
-        line-height: 2em;
-        height: 75vh;
-        justify-content: center;
-        font-size: 1em;
-        color: var(--white-color);
-    
-    }
-    
-    .details
-    {
-        line-height: 20px;
-    }
-    #aboutme1head
-    {
-        font-size: 1.5em;
-    }
-    .details h1 ,h3
-    {
-        font-size: 1em; 
-       
-    }
-    .details1
+@media (max-width: 850px)
 {
-    margin: 10px 0px 0px 100px;
+    img
+    {
+        width: 150px;
+    }
+
+    #two
+    {
+        width: 150px;
+    }
+
+    #one
+    {
+        width: 50vw;
+        line-height: 25px;
+        font-weight: bold;
+        font-size: 1em;
+    }
+    #one p
+{
+    line-height: 18px;
+    font-weight: bold;
+    font-size: 0.8em;
+    color: aqua;
+}
+.skillbox
+{
+    
+    width: 90vw;
+    
+}
+#technicalSkill h1 {
+    font-weight: bold;
+    border-bottom: solid var(--gold-color) 2px;
+    color: var(--gold-color);
+    font-size: 1.2em;
+   
+  
+}
+#technicalSkill h3 {
+    font-weight: bold;
+    color: var(--gold-color);
+    font-size: 0.7em;
+   
+  
+}
+#technicalSkill span {
+    
+    font-size: 0.9rem;
+    color: var(--white-color);
+    line-height: 50px;
+    padding: 5px;
+   
+}
+.grid
+{
+    
+    gap: 10px;
+}
+.grid section
+{
+  
+    height: auto;
+    width: 300px;
+    
     padding: 10px;
-    width: 30vw;
+    
+    line-height: 20px;
+    
+}
+#education h1 {
+    font-weight: bold;
+    border-bottom: solid var(--gold-color) 2px;
+    color: var(--gold-color);
+    font-size: 2em;
+   
+  
+}
+.grid span
+{
+    color:var(--gold-color);
+    font-size: 20px;
+}
+
+#education h2,h4
+{
+    font-size: 0.7em;
+}
+
+#certification
+{
+    
+    font-size: 1rem;
+    line-height: 2em;
+}
+#certification div
+{
+    padding: 20px;
+}
+#careerSkills h1{
+   
+    padding: 10px;
+    font-weight: bold;
+    
+    font-size: 2em;
+}
+#careerSkills ul {
+   
+    
+   
+    line-height: 2em;
+   
+   
+    font-size: 1.4em;
+   
+
+}
+
+#details
+{
+   
+    background-color:var(--main-color);
+    height: 100vh;
+    width: 100%;
+    /* border: solid 2px red; */
+    justify-content: center;
+    align-items: center;
+    color: var(--gold-color);
+    line-height: 30px;
+    
+  
+}
+#aboutme1head
+{
+    text-align: center;
+    /* margin-top: 20px; */
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    border-bottom: solid var(--gold-color) 2px;
+    color: var(--gold-color);
+    font-size: 2em;
+}
+
+#details h1{
+    font-weight: bold;
+    border-bottom: solid var(--gold-color) 1px;
+    color: var(--gold-color);
+    font-size: 1.5em;
+    
+    
+   
+
+}
+.details1
+{
+    margin: 10px 0px 0px 10px;
+    padding: 10px;
+    width: 100vw;
     color: white;
     
 }
 .languages,.hobbies
 {
-    margin: -20px 0px 0px 100px;
-    padding: 30px 0px 0px 10px;
-    width: 30vw;
+    margin: -20px 0px 0px 10px;
+    padding: 15px 0px 0px 10px;
+    width: 90vw;
     color: white;
     /* background-color: aliceblue; */
     
 }
-    .technical .skillbox {
-    width: 80%;
-    line-height: 40px;
-}
+
+
+
 
 }
 
-/* =======second */
-
-@media (max-width: 723px) {
-    * {
-        /* background-color: red; */
-    }
-
-    .main_btn ul li {
-        padding: 2px 0;
-        font-size: 0.2em;
-        width: 10vh;
-        /* border: solid rgb(0, 255, 110) 0px; */
-    }
-
-    #A {
-        width: 30vw;
-        height: 20vh;
-        line-height: 20px;
-        font-weight: bold;
-        font-size: 0.5em;
-        color: var(--white-color);
-    }
-
-    #A p {
-        line-height: 15px;
-        font-weight: bold;
-        font-size: 0.2em;
-        color: aqua;
-    }
-
-    #aboutme_btn {
-        margin-top: 10px;
-        margin-left: 0px;
-        padding: 5px;
-        border-radius: 50px;
-        width: 60px;
-        background:
-            linear-gradient(rgb(248, 236, 4), transparent),
-            linear-gradient(to top left, rgb(0, 126, 2), transparent),
-            linear-gradient(to top right, green, transparent);
-        border: 0;
-        font-size: 0.8em;
-
-    }
-
-    img {
-        width: 100px;
-    }
-
-    /* ==================================project */
-    .project h1 {
-        color: var(--gold-color);
-        border-bottom: solid 1px var(--gold-color);
-        font-size: 1em;
-    }
-
-    .technical h1 {
-        color: var(--gold-color);
-        border-bottom: solid 2px var(--gold-color);
-        font-size: 1em;
-    }
-
-    .technical h3 {
-        font-weight: bold;
-        color: var(--gold-color);
-        font-size: 0.5em;
-
-
-    }
-
-    .technical span {
-
-        font-size: 0.5rem;
-        color: var(--white-color);
-        line-height: 55px;
-        margin-right: 30px;
-    }
-
-    .technical {
-        row-gap: 20px;
-    }
-
-    .technical span {
-        line-height: 30px;
-        margin-right: 5px;
-    }
-
-
-    /* =====================================education */
-    .education h1 {
-        font-size: 0.8em;
-    }
-
-    #kodnest,
-    #graduation,
-    #puc,
-    #sslc {
-
-        height: 80px;
-        width: 200px;
-        margin: 10px 15px;
-        padding: 5px;
-        border-left: solid var(--gold-color) 1px;
-        line-height: 13px;
-        font-size: 0.4em;
-
-
-
-    }
-    .grid span
-{
-    color:var(--gold-color);
-    font-size: 1.5em;
-}
-
-.certification
-{
-    font-size: 0.5em;
-}
-#kodnestlink
-{
-    padding: 4px;
-   
-    border: 0px ;
-}
-
-.careerskill h1{
-    text-align: center;
-    padding: 10px;
-    font-weight: bold;
-    border-bottom: solid var(--gold-color) 2px;
-    color: var(--gold-color);
-    font-size: 1em;
-}
-.careerskill ul {
-    margin: 10px 0px 0px 80px;
-    padding-left: 30px;
-    padding-top: 20px;
-    line-height: 1.5em;
-    height: 75vh;
-    justify-content: center;
-    font-size: 0.8em;
-    color: var(--white-color);
-
-}
-
-.details
-{
-    line-height: 15px;
-}
-#aboutme1head
-{
-    font-size: 1.2em;
-}
-.details h1 ,h3
-{
-    font-size: 0.6em; 
-   
-}
-.details1
-{
-margin: 10px 0px 0px 50px;
-padding: 5px;
-width: 40vw;
-color: white;
-
-}
-.languages,.hobbies
-{
-margin: -20px 0px 0px 50px;
-padding: 25px 0px 0px 5px;
-width: 40vw;
-color: white;
-/* background-color: aliceblue; */
-
-}
-    .technical .skillbox {
-    width: 80%;
-    line-height: 20px;
-}
-
-}
-
-    
