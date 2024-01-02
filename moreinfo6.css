@@ -80,6 +80,11 @@ header ul a {
     padding: 10px;
   
 }
+.details1 h2
+{
+    color: brown;
+
+}
 .subimg img
 {
     width: 500px;
@@ -102,4 +107,33 @@ header ul a {
     padding: 0px;
     text-align: center;
     font-size: 0.8em;
+}
+.fullbody
+{
+    padding: 10px;
+}
+.part1
+{
+    margin: 20px;
+    display: flex; 
+    gap: 10px;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.part1 div
+{
+    width: 400px;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+.part1 div h4
+{
+    color: rgb(249, 34, 34);
+    font-weight: bolder;
+}
+.details1
+{
+    margin: 10px 50px;
 }
