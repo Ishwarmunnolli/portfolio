@@ -56,7 +56,7 @@ body {
         linear-gradient(rgba(6, 89, 85, 0.507), transparent),
         linear-gradient(to top left, rgb(33, 5, 110), transparent),
         linear-gradient(to top right, rgb(163, 12, 148), transparent);
-    
+     transition:0.1s 0.2s;
 
 }
 .hbtn:hover {
