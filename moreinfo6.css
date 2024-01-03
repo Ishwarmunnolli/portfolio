@@ -122,7 +122,7 @@ header ul a {
 }
 .part1 div
 {
-    width: 400px;
+    width: 600px; /*400*/
     border: 1px solid black;
     padding: 20px;
     border-radius: 10px;
@@ -136,4 +136,14 @@ header ul a {
 .details1
 {
     margin: 10px 50px;
+}
+.part1 img
+{
+    width: 600px; /*400 200*/
+     height:400px;
+}
+.part1 h4, p
+{
+    font-size: larger;
+
 }
