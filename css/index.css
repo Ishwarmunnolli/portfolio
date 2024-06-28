@@ -1,0 +1,388 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600&display=swap');
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+:root {
+    --pc: rgb(0, 11, 60);
+    --b : gold;
+
+}
+/* --------------------------------------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: aliceblue;
+}
+
+/* -----------------------------------------------------upper---------------------- */
+#upper 
+{
+    width: 100%;
+    height: 10%;
+    background-color: var(--pc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#navbar,
+a {
+    text-decoration: none;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 1s linear;
+}
+
+/* --------------------------------------------------------lower------------------- */
+#lower {
+    width: 100%;
+    height: calc(100vh - 10%);
+    background-color: var(--pc);
+    overflow: scroll;
+}
+
+#home,
+#projects,
+#technical_skills,
+#education,
+#contact {
+    width: 100%;
+    height: 99%;
+    /* border: 1px solid red; */
+}
+
+/* --------------------------------------------------------home------------------- */
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home #left,
+#right {
+    width: 50%;
+    height: 90%;
+    /* border: 1px solid rgb(255, 0, 251); */
+
+}
+
+#left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 20px;
+    padding: 100px;
+}
+
+#box1 {
+    line-height: 30px;
+}
+#box1 h1, h2 ,h3
+{
+    letter-spacing: 5px;
+    font-size: 1.2rem;
+    color: gold;
+}
+#box1 p
+{
+    font-size: 0.8rem;
+}
+#box2 {
+    display: flex;
+    width: 50%;
+}
+
+#box3 #btn {
+    background-color: yellow;
+    padding: 4px;
+    color: black;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow:5px 5px 15px -2px rgb(94, 229, 244);
+    transition: 1s linear 0.1s;
+}
+
+#right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+#right svg {
+    /* border: 1px solid red; */
+    width: 90%;
+    height: 90%;
+}
+
+#right img {
+    position: absolute;
+    width: 300px;
+    animation: im 2s linear;
+}
+/* --------------------------------------------------------------------------------------------- */
+#projects {
+    height: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: 20px;
+    row-gap: 10px;
+    overflow: scroll;
+    padding: 10px;
+}
+
+.card {
+    flex-shrink: 0;
+    color: black;
+    width: 250px;
+    height: 270px;
+    border: 1px solid aliceblue;
+    border-radius: 1.5rem;
+    overflow: hidden;
+
+}
+/* -------------------------------------------------------------project slide------ */
+#projects1 {
+    width: 100%;
+    height: 100%;
+    background-color: var(--pc);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    transition: transform 0.5s linear;
+    position: relative;
+}
+
+.projectFrame
+{
+   
+    width: 900px;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+    /* box-shadow: 0px 0px 25px 15px rgb(2, 14, 110); */
+    /* box-shadow:0px 5px 25px 1px rgb(94, 229, 244) */
+    
+    box-shadow:0px 5px 25px 1px rgb(2, 14, 110);
+
+}
+.slideFrame
+{
+   
+    width: 900px;
+    height: 50px;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.projectDetailsframe
+{
+    height: 200px;
+    width: 900px;
+    background-color: var(--pc);
+    color: aliceblue;
+    padding: 20px;
+
+    line-height: 25px;
+    cursor: pointer;
+}
+.pimg
+{
+    width: 900px;
+    height: 300px;
+}
+.ProjectImg
+{
+    position: absolute;
+    transition: transform 0.5s linear;
+}
+#leftslide , #rightslide
+{
+    cursor: pointer;
+}
+#pro_img {
+    width: 100%;
+    height: 70%;
+}
+.projectdirectionbtn
+{
+    background-color: yellow;
+    color: var(--pc);
+    width: 100px;
+    border: 0px solid black;
+    border-radius: 10px;
+    padding: 2px;
+    margin-top: 10px;
+    box-shadow:2px 2px 10px -2px rgb(94, 229, 244);
+    cursor: pointer;
+}
+.projectdirectionbtn i
+{
+    color: var(--pc);
+    margin-left: 10px;
+}
+.car_content {
+    width: 100%;
+    height: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.projectDetailsframe>h1{
+    color: gold;
+}
+/* -------------------------------------------skill------------- */
+#technical_skills {
+    display: flex;
+    row-gap: 50px;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    /* background-color: rgb(255, 0, 230); */
+}
+
+#skill_box 
+{
+    /* background-color: rgba(155, 12, 12, 0.964); */
+    width: 60%;
+    height: 100px;
+    
+}
+
+
+.skillstrip
+{
+    /* background-color:aqua ; */
+    margin-top: 5px;
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    column-gap: 30px;
+   
+}
+.skillImg
+{
+    /* background-color:rgb(255, 255, 255) ; */
+    width: 80px;
+    height: 70px;
+}
+.skilltitle
+{
+    /* background-color:rgb(255, 255, 255) ; */
+    color: rgb(255, 254, 254);
+    width: 80px;
+    text-align: center;
+
+}
+#skill_box > h1
+{
+    color: gold;
+    font-size: 1.2rem;
+}
+
+/* ---------------------------------------------------------------education-------- */
+#education {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#education_box {
+    /* background-color: rgb(17, 49, 77); */
+    width: 80%;
+    height: 80%;
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto;
+    gap: 2rem;
+}
+
+#education_box #kodnest,
+#graduation,
+#sslc,
+#puc {
+    border: 1px solid red;
+    border-left: 2px solid gold;
+    font-size: 1.1rem;
+    padding: 10px;
+    /* box-shadow: 8px 6px 12px 9px rgb(2, 14, 110); */
+    box-shadow:0px 5px 25px 1px rgb(2, 14, 110);
+
+}
+
+/* --------------------------------------------------------------contact-------------- */
+
+#contact
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contactFrame{
+    width: 60%;
+    /* height: 80%; */
+    /* background-color: rgb(14, 77, 132); */
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+
+}
+
+.contact-container
+{
+   /* background-color: rgb(0, 0, 0); */
+   
+}
+.contact-container input,textarea
+{
+    width: 100%;
+    margin: 0;
+    padding: 5px;
+    border: none;
+    outline: none;
+
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px rgba(238, 224, 224, 0.747);
+    color: navy;
+
+}
+.contact-container button
+{
+    margin-top: -25px;
+    background-color: yellow;
+    color: navy;
+    padding: 5px 10px;
+    border-radius: 20px;
+    border: none;
+    box-shadow:5px 5px 15px -2px rgb(94, 229, 244);   
+    transition: 1s linear 0.1s;
+    cursor: pointer;
+
+}
+.contact-info
+{
+    line-height: 1.8;
+}
+form
+{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    /* background-color: rgb(194, 10, 10); */
+}
